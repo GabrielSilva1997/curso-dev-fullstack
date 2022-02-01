@@ -1,0 +1,50 @@
+body{
+    background: #FFFFFF;  
+    border: 2px solid black;  
+    /*Aqui em cima estilizamos o background do body, abaixo vamos estilizar o texto*/
+
+    font-family: 'Raleway', sans-serif;
+    color: rgb(34, 34, 34);
+
+} 
+
+.fotoPrincipal{
+
+    width: 180px;
+    border: 2px solid #FFFFFF; /*shorthand*/
+    /*border-radius: 50%;*/
+    border-radius: 50px 0px 50px 0px;  
+    /*Arredondando cada lado de um jeito*/
+
+    /*border-top: dotted;
+    border-bottom: dashed;*/
+    
+    /*border-width: 5px;
+    border-style: solid;
+    border-color: black;*/
+
+    /* Existe a possibilidade de utilizarmos somente a propriedade border, dessa forma conseguimos manipular 3 características de uma só vez,esse tipo de propriedade é chamado de "shorthand", porém, nada impede de fazer uma de cada vez como fizemos acima.*/
+
+    margin: 10px;
+    padding: 10px;
+     
+    /*left: 450px; top: 20px; position: absolute; */
+    /* Provavelmente terá uma aula sobre isso mais a frente, mas precisava modificar isso agora*/
+
+    box-shadow: 0px 0px 12px rgb(128, 123, 123);   
+}
+
+h1{
+    margin-bottom: 0px;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 35px;
+}
+
+h2{
+    margin-top: 0px;
+    font-style: italic;
+    color: rgb(73, 73, 73);
+    font-weight: 100;
+    letter-spacing: -1px;
+}
